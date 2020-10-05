@@ -1,3 +1,6 @@
+# project made on jet brains academy
+# basic chat bot
+
 def greet(bot_name, birth_year):
     print('Hello! My name is ' + bot_name + '.')
     print('I was created in ' + birth_year + '.')
@@ -8,7 +11,7 @@ def remind_name():
     name = input()
     print('What a great name you have, ' + name + '!')
 
-
+#  function to guess age 
 def guess_age():
     print('Let me guess your age.')
     print('Enter remainders of dividing your age by 3, 5 and 7.')
@@ -19,10 +22,9 @@ def guess_age():
     print("Third remainder")
     rem7 = int(input())
     age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
-
     print("Your age is " + str(age) + "; that's a good time to start programming!")
 
-
+#  function thats counts between 1 to 10
 def count():
     print('Now I will prove to you that I can count to any number you want.')
     print("Tell me a number between 1 and 10")
